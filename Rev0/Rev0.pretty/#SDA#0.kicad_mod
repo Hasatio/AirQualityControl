@@ -1,0 +1,20 @@
+(footprint "#SDA#0" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 491f63d8-259e-4939-8fa6-7d0d4bb570e1)
+  )
+  (fp_text value "" (at 0 0) (layer "F.Fab")
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 8ae57726-4a84-411a-8f5b-65f82d4fed55)
+  )
+  (fp_poly
+    (pts
+      (xy 1.902236 0.235528)
+      (xy 1.9 0.24)
+      (xy 1.9 0.235)
+      (xy 1.90118 0.235)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS") (tstamp eb3b9032-f713-4f09-8eec-2830df16b035))
+)
