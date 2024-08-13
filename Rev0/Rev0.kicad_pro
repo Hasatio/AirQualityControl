@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.6,
-          "width": 2.3
+          "drill": 0.0,
+          "height": 2.4,
+          "width": 1.5
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -55,7 +55,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|102638200|46681500|b85f65d0-4343-4ee8-84ef-8362aae8553e|e035c6c2-b416-43eb-9569-46cb6962b0a7",
+        "clearance|65010500|44977800|d9a31927-3b16-4634-a3ea-819b74525e06|b8096c74-3706-4932-ab5a-773ffe6c4ac0",
+        "clearance|65010500|45779400|246e263c-e23a-41a6-83e3-6048c54c0e54|b8096c74-3706-4932-ab5a-773ffe6c4ac0",
+        "clearance|65010500|46477800|246e263c-e23a-41a6-83e3-6048c54c0e54|de5a8f2b-bb91-421d-ba80-b25fa56973aa",
+        "clearance|65262100|44279400|f9d6084d-ba69-482b-a32b-6589b6f5a0bb|d9a31927-3b16-4634-a3ea-819b74525e06",
+        "clearance|65460500|46477800|de5a8f2b-bb91-421d-ba80-b25fa56973aa|8daa9896-6b0c-45ed-897d-3791e23cc782",
+        "clearance|65712100|44279400|6662e744-550d-4d93-a281-154e3d9b3fad|f9d6084d-ba69-482b-a32b-6589b6f5a0bb",
+        "clearance|65910500|46477800|8daa9896-6b0c-45ed-897d-3791e23cc782|566b4893-9975-4912-921c-6f97e08a49ee",
+        "clearance|66162100|44279400|cab775ea-1425-4743-93fa-521bf76c2219|6662e744-550d-4d93-a281-154e3d9b3fad",
+        "clearance|95158300|44734712|771d97fe-4900-497d-98e7-1ad1a0f92909|e035c6c2-b416-43eb-9569-46cb6962b0a7",
+        "clearance|95158300|47274712|d3f39999-66ed-45b3-9ee0-bee42a6a8f39|e035c6c2-b416-43eb-9569-46cb6962b0a7",
+        "clearance|95158300|49814712|eba51e75-f0b2-4aab-9eec-275b3f4380fd|e035c6c2-b416-43eb-9569-46cb6962b0a7"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
